@@ -1,0 +1,15 @@
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\Utilities\bin\Debug\Utilities.dll
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\Utilities\obj\Debug\Utilities.dll
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\Utilities\obj\Debug\Utilities.pdb
+D:\DataLogAnalyzer\Utilities\bin\Debug\Utilities.dll
+D:\DataLogAnalyzer\Utilities\bin\Debug\Utilities.pdb
+D:\DataLogAnalyzer\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+D:\DataLogAnalyzer\Utilities\obj\Debug\Utilities.dll
+D:\DataLogAnalyzer\Utilities\obj\Debug\Utilities.pdb
+E:\DataLogAnalyzer\Utilities\bin\Debug\Utilities.dll
+E:\DataLogAnalyzer\Utilities\bin\Debug\Utilities.pdb
+E:\DataLogAnalyzer\Utilities\obj\Debug\Utilities.dll
+E:\DataLogAnalyzer\Utilities\obj\Debug\Utilities.pdb
+E:\DataLogAnalyzer\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache

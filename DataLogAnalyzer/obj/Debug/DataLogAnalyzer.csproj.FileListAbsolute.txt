@@ -1,0 +1,17 @@
+E:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer.csprojResolveAssemblyReference.cache
+E:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\IdleControl.baml
+E:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\IdleControl.g.cs
+E:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer_MarkupCompile.cache
+E:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer.g.resources
+D:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer.csprojResolveAssemblyReference.cache
+D:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\View\IdleControl.baml
+D:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\View\IdleControl.g.cs
+D:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\View\Main.g.cs
+D:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer_MarkupCompile.cache
+D:\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer_MarkupCompile.lref
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\View\IdleControl.baml
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\View\IdleControl.g.cs
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\View\Main.g.cs
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer_MarkupCompile.cache
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer_MarkupCompile.lref
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogAnalyzer\obj\Debug\DataLogAnalyzer.csprojResolveAssemblyReference.cache

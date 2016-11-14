@@ -1,0 +1,76 @@
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\MainWindow.baml
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\View\IdleControl.baml
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\MainWindow.g.cs
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\View\IdleControl.g.cs
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\View\Main.g.cs
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\App.g.cs
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.cache
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.lref
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe.config
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.pdb
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\bin\Debug\Utilities.dll
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\bin\Debug\Utilities.pdb
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csprojResolveAssemblyReference.cache
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\View\Main.baml
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.g.resources
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.Properties.Resources.resources
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csproj.GenerateResource.Cache
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.exe
+C:\Users\Bryce\Documents\Visual Studio 2012\Projects\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.pdb
+D:\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe.config
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.exe
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.pdb
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csprojResolveAssemblyReference.cache
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.baml
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\App.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.cache
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.lref
+D:\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe
+D:\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.pdb
+D:\DataLogAnalyzer\DataLogApp\bin\Debug\Utilities.dll
+D:\DataLogAnalyzer\DataLogApp\bin\Debug\Utilities.pdb
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\App.baml
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.baml
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.baml
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.g.resources
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.Properties.Resources.resources
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csproj.GenerateResource.Cache
+E:\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe.config
+E:\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe
+E:\DataLogAnalyzer\DataLogApp\bin\Debug\DataLogApp.pdb
+E:\DataLogAnalyzer\DataLogApp\bin\Debug\Utilities.dll
+E:\DataLogAnalyzer\DataLogApp\bin\Debug\Utilities.pdb
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csprojResolveAssemblyReference.cache
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.baml
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\App.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.cache
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.lref
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\App.baml
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.baml
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.baml
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.baml
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.g.resources
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.Properties.Resources.resources
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csproj.GenerateResource.Cache
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.exe
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\DataLogApp.pdb
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.g.cs
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.baml
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.baml
+D:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.baml
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.g.cs
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.baml
+E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.baml

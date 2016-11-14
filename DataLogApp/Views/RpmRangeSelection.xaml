@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="DataLogApp.Views.RpmRangeSelection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DataLogApp.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="243" d:DesignWidth="480">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"></ColumnDefinition>
+            <ColumnDefinition Width="65*"></ColumnDefinition>
+            <ColumnDefinition Width="20*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"></RowDefinition>
+            <RowDefinition Height="17*"></RowDefinition>
+            <RowDefinition Height="17*"></RowDefinition>
+            <RowDefinition Height="17*"></RowDefinition>
+            <RowDefinition Height="17*"></RowDefinition>
+            <RowDefinition Height="16*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">1500RPM:</Label>
+        <TextBox Grid.Column="1" Grid.Row ="0" Height="23" VerticalAlignment="Center" Text="{Binding Path=SingleOrMultiTextBoxPath}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="0" Height="23" Width="50" Command="{Binding Path=BrowseSingleOrMulti}">Browse</Button>
+
+        <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">2000RPM:</Label>
+        <TextBox Grid.Column="1" Grid.Row ="1"  Height="23" VerticalAlignment="Center" Text="{Binding Path=Rpm2000Path}" IsEnabled="{Binding Path=NotUseMultiSelect}" Visibility="{Binding Path=UseMultiSelectVisibility}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="1" Height="23" Width="50" Command="{Binding Path=Browse2000RpmPath}" Visibility="{Binding Path=UseMultiSelectVisibility}">Browse</Button>
+
+        <Label Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">2500RPM:</Label>
+        <TextBox Grid.Column="1" Grid.Row ="2"  Height="23" VerticalAlignment="Center" Text="{Binding Path=Rpm2500Path}" IsEnabled="{Binding Path=NotUseMultiSelect}" Visibility="{Binding Path=UseMultiSelectVisibility}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="2" Height="23" Width="50" Command="{Binding Path=Browse2500RpmPath}" Visibility="{Binding Path=UseMultiSelectVisibility}">Browse</Button>
+
+        <Label Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">3000RPM:</Label>
+        <TextBox Grid.Column="1" Grid.Row ="3"  Height="23" VerticalAlignment="Center" Text="{Binding Path=Rpm3000Path}" IsEnabled="{Binding Path=NotUseMultiSelect}" Visibility="{Binding Path=UseMultiSelectVisibility}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="3" Height="23" Width="50" Command="{Binding Path=Browse3000RpmPath}" Visibility="{Binding Path=UseMultiSelectVisibility}">Browse</Button>
+
+        <Label Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">3500RPM:</Label>
+        <TextBox Grid.Column="1" Grid.Row ="4"  Height="23" VerticalAlignment="Center" Text="{Binding Path=Rpm3500Path}" IsEnabled="{Binding Path=NotUseMultiSelect}" Visibility="{Binding Path=UseMultiSelectVisibility}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="4" Height="23" Width="50" Command="{Binding Path=Browse3500RpmPath}" Visibility="{Binding Path=UseMultiSelectVisibility}">Browse</Button>
+
+        <Label Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">4000RPM:</Label>
+        <TextBox Grid.Column="1" Grid.Row ="5"  Height="23" VerticalAlignment="Center" Text="{Binding Path=Rpm4000Path}" IsEnabled="{Binding Path=NotUseMultiSelect}" Visibility="{Binding Path=UseMultiSelectVisibility}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="5" Height="23" Width="50" Command="{Binding Path=Browse4000RpmPath}" Visibility="{Binding Path=UseMultiSelectVisibility}">Browse</Button>
+
+    </Grid>
+</UserControl>

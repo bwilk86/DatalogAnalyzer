@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="DataLogApp.Views.InjectorBank1Control"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DataLogApp.Views"
+             mc:Ignorable="d" 
+             MinHeight="450" MinWidth="600">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="3" Grid.ColumnSpan="4" FontSize="20" HorizontalContentAlignment="Center" Foreground="Brown">Bank 1 Injector Scaling</Label>
+        <Label Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="5">Determine RPM Range for me</Label>
+        <CheckBox Grid.Column="6" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" IsChecked="{Binding Path=UseMultiSelect}"></CheckBox>
+        
+        <Label Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Content="{Binding Path=SingleOrMultiSelectText}"></Label>
+        
+        <UserControl Grid.Column="1" Grid.ColumnSpan="8" Grid.Row="3" Grid.RowSpan="6" Content="{Binding Path=RpmSelectionMethod}"></UserControl>
+
+    </Grid>
+    
+</UserControl>

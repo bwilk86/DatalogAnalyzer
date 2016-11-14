@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLogApp", "DataLogApp\DataLogApp.csproj", "{4CB68779-7D63-49AB-AB80-9D1B3F4FE80C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{1F7BB83C-820C-45C0-B797-530E2F760431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB68779-7D63-49AB-AB80-9D1B3F4FE80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB68779-7D63-49AB-AB80-9D1B3F4FE80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB68779-7D63-49AB-AB80-9D1B3F4FE80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB68779-7D63-49AB-AB80-9D1B3F4FE80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7BB83C-820C-45C0-B797-530E2F760431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7BB83C-820C-45C0-B797-530E2F760431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7BB83C-820C-45C0-B797-530E2F760431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7BB83C-820C-45C0-B797-530E2F760431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
