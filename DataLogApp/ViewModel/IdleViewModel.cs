@@ -186,6 +186,7 @@ namespace DataLogApp.ViewModel
                     total <= 3.5)
                 {
                     //Show/save results, move to stage 2
+                    Bank1Command.Execute(null);
                 }
             }
         }
