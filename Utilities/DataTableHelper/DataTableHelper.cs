@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using Utilities;
@@ -11,6 +12,15 @@ namespace Utilities.DataTableHelper
         {
             var enumberableTable = dataTable.AsEnumerable();
             return enumberableTable.Average((row) => Convert.ToDouble(row[columnName]));
+        }
+
+        public Dictionary<string, double> GetAllColumnAverages(DataTable datatable)
+        {
+            var enumerableTable = datatable.AsEnumerable();
+
+            var averagesDictionary = datatable.Columns.Cast<DataColumn>().ToDictionary(column => column.ColumnName, column => enumerableTable.Average((row) => Convert.ToDouble(row[column.ColumnName])));
+            
+            return averagesDictionary;
         }
 
         public int RpmBand(DataTable dataTable, string columnName)

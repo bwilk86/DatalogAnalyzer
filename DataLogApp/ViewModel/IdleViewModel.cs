@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Windows.Forms;
 using System.Windows.Input;
@@ -8,6 +9,7 @@ using DataLogApp.Model;
 using DataLogApp.Objects;
 using DataLogApp.Properties;
 using DataLogApp.Views;
+using Utilities;
 using Utilities.MVVM;
 using Utilities.DataTableHelper;
 
@@ -129,17 +131,29 @@ namespace DataLogApp.ViewModel
             var idleDataTable = _userDataModel.IdleLog;
 
             var columnNamesArray = _appSettings.ColumnNames[_userSettings.TuningProgram];
-            var massAirflowColumnName = columnNamesArray.MassAirflowRate;
-            var lTftColumnName = columnNamesArray.LongTerm;
-            var sTftColumnName = columnNamesArray.ShortTerm;
 
+            var averages = _dataTableHelper.GetAllColumnAverages(idleDataTable);
 
-            var averageAirflow = _dataTableHelper.GetColumnAverage(idleDataTable, massAirflowColumnName);
-            AverageAirflow = averageAirflow.ToString("N2");
-            if (averageAirflow < 5.0 || averageAirflow > 5.5)
+            var rpm = averages[columnNamesArray.Rpm];
+
+            if (rpm < 800 || rpm > 1250)
+            {
+                AnalysisMessage =
+                    string.Format(
+                        "RPM reported in log outside of normal idle RPM\n Normal idle is typically between 800 and 1000 RPM\n Yours is {0}",
+                        rpm.ToString("N0"));
+                return;
+            }
+
+            var avgAirflow = averages[columnNamesArray.MassAirflowRate];
+
+            AverageAirflow = avgAirflow.ToString("N2");
+
+            
+            if (avgAirflow  < 5.0 || avgAirflow  > 5.5)
             {
                 AirflowResultsColor = Brushes.Red;
-                double percentToAdjust = 5.25/averageAirflow;
+                double percentToAdjust = 5.25/avgAirflow ;
 
                 AnalysisMessage =
                     string.Format(
@@ -149,16 +163,16 @@ namespace DataLogApp.ViewModel
             }
 
 
-            if (averageAirflow >= 5 && averageAirflow <= 5.5)
+            if (avgAirflow  >= 5 && avgAirflow  <= 5.5)
             {
                 AirflowResultsColor = Brushes.DarkGreen;
 
-                var avgLtft = (_dataTableHelper.GetColumnAverage(idleDataTable, lTftColumnName));
+                var avgLtft = averages[columnNamesArray.LongTerm];
                 AverageLtFt = avgLtft.ToString("N2");
                 LtFtResultsColor = Math.Abs(avgLtft) < 3 ? Brushes.DarkGreen : Brushes.Red;
                 
 
-                var avgStft = _dataTableHelper.GetColumnAverage(idleDataTable, sTftColumnName);
+                var avgStft = averages[columnNamesArray.ShortTerm];
                 AverageStFt = avgStft.ToString("N2");
                 StFtResultsColor = Math.Abs(avgStft) < 3 ? Brushes.DarkGreen : Brushes.Red;
 

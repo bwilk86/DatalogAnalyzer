@@ -74,3 +74,31 @@ E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.g.cs
 E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.g.cs
 E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.baml
 E:\DataLogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe.config
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.exe
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.pdb
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csprojResolveAssemblyReference.cache
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\App.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.cache
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.lref
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\bin\Debug\DataLogApp.pdb
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\bin\Debug\Utilities.dll
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\bin\Debug\Utilities.pdb
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\App.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.baml
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.g.resources
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.Properties.Resources.resources
+C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csproj.GenerateResource.Cache
