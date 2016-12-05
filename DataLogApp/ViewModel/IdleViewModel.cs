@@ -140,7 +140,7 @@ namespace DataLogApp.ViewModel
             {
                 AnalysisMessage =
                     string.Format(
-                        "RPM reported in log outside of normal idle RPM\n Normal idle is typically between 800 and 1000 RPM\n Yours is {0}",
+                        "RPM reported in log outside of normal idle RPM\n Normal idle is typically between 800 and 1000 RPM\n Yours is around {0}RPM",
                         rpm.ToString("N0"));
                 return;
             }
@@ -186,7 +186,7 @@ namespace DataLogApp.ViewModel
                     total <= 3.5)
                 {
                     //Show/save results, move to stage 2
-                    Bank1Command.Execute(null);
+                    
                 }
             }
         }
