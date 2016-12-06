@@ -115,6 +115,7 @@ namespace Utilities.DataTableHelper
 
             return 0;
         }
+
         //TODO: Implement method to determine the gear that the datalog was logged in using RPM/Vehicle Speed Average
         //public int DataLogGear(DataTable dataTable, string rpmColumnName, string speedColumnName)
         //{

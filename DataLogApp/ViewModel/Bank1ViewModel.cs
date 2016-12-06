@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Forms;
@@ -130,6 +131,8 @@ namespace DataLogApp.ViewModel
                 MessageBox.Show(
                     string.Format("The following files are invalid. Files must be CSV files {0}", invalidLogFiles),
                     "Invalid Files detected", MessageBoxButtons.OK);
+
+                MultiSelectionError(validLogFiles);
             }
 
 
@@ -143,6 +146,133 @@ namespace DataLogApp.ViewModel
                 var rpmBand = _dataTableHelper.RpmBand(dataTable, rpmColumnName);
 
                 _userDataModel.AddLog(rpmBand, dataTable);
+            }
+        }
+
+        private void MultiSelectionError(IEnumerable<string> validLogFiles)
+        {
+            UseMultiSelect = false;
+            foreach (var logFile in validLogFiles)
+            {
+                var rpmColumnName = _appSettings.ColumnNames[_userSettings.TuningProgram].Rpm;
+                var dataTable = _csvHandler.GetDataTableFromCsvFile(logFile);
+                var rpmBand = _dataTableHelper.RpmBand(dataTable, rpmColumnName);
+                if (rpmBand == 15)
+                {
+                    Rpm1500Path = logFile;
+                }
+                if (rpmBand == 20)
+                {
+                    Rpm2000Path = logFile;
+                }
+                if (rpmBand == 25)
+                {
+                    Rpm2500Path = logFile;
+                }
+                if (rpmBand == 30)
+                {
+                    Rpm3000Path = logFile;
+                }
+                if (rpmBand == 35)
+                {
+                    Rpm3500Path = logFile;
+                }
+                if (rpmBand == 40)
+                {
+                    Rpm4000Path = logFile;
+                }
+            }
+
+        }
+
+        private string rpm1500Path;
+
+        public string Rpm1500Path
+        {
+            get
+            {
+                return rpm1500Path;
+            } 
+            set
+            {
+                if (value == null) return;
+                rpm1500Path = value;
+                OnPropertyChanged("Rpm1500Path");
+            }
+        }
+        private string rpm2000Path;
+
+        public string Rpm2000Path
+        {
+            get
+            {
+                return rpm2000Path;
+            } 
+            set
+            {
+                if (value == null) return;
+                rpm2000Path = value;
+                OnPropertyChanged("Rpm2000Path");
+            }
+        }
+        private string rpm2500Path;
+
+        public string Rpm2500Path
+        {
+            get
+            {
+                return rpm2500Path;
+            } 
+            set
+            {
+                if (value == null) return;
+                rpm2500Path = value;
+                OnPropertyChanged("Rpm2500Path");
+            }
+        }
+        private string rpm3000Path;
+
+        public string Rpm3000Path
+        {
+            get
+            {
+                return rpm3000Path;
+            } 
+            set
+            {
+                if (value == null) return;
+                rpm3000Path = value;
+                OnPropertyChanged("Rpm3000Path");
+            }
+        }
+        private string rpm3500Path;
+
+        public string Rpm3500Path
+        {
+            get
+            {
+                return rpm3500Path;
+            } 
+            set
+            {
+                if (value == null) return;
+                rpm3500Path = value;
+                OnPropertyChanged("Rpm3500Path");
+            }
+        }
+        private string rpm4000Path;
+
+        public string Rpm4000Path
+        {
+            get
+            {
+                return rpm4000Path;
+            } 
+            set
+            {
+                if (value == null) return;
+                rpm4000Path = value;
+                OnPropertyChanged("Rpm4000Path");
             }
         }
     }
