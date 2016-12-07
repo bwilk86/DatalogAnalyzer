@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Windows;
@@ -30,6 +32,7 @@ namespace DataLogApp.ViewModel
         public Bank1ViewModel()
         {
             UseMultiSelect = true;
+            _csvHandler = new CsvHandler();
         }
 
         public Bank1ViewModel(UserSettingsData userSettings, UserDataModel userData, DataTableHelper dataTableHelper,
@@ -40,6 +43,7 @@ namespace DataLogApp.ViewModel
             _userDataModel = userData;
             _dataTableHelper = dataTableHelper;
             _appSettings = appSettings;
+            _csvHandler = new CsvHandler();
         }
 
         private Visibility _useMultiSelectVisibility;
@@ -99,6 +103,37 @@ namespace DataLogApp.ViewModel
         public ICommand BrowseSingleOrMulti
         {
             get { return _browseCommand ?? (_browseCommand = new DelegateCommand(BrowseSingleOrMultiSelect)); }
+        }
+
+        private ICommand _browse1500PathCommand;
+        public ICommand Browse1500RpmPath
+        {
+            get { return _browse1500PathCommand ?? (_browse1500PathCommand = new DelegateCommand(Browse1500PathSelect)); }
+        }
+
+        public void Browse1500PathSelect(object obj)
+        {
+            var file = new OpenFileDialog()
+            {
+                InitialDirectory = "c:\\",
+                //string.IsNullOrEmpty(_userSettings.DatalogsPath) ? "c:\\" : _userSettings.DatalogsPath,
+                Multiselect = false,
+                Filter = Resources.IdleViewModel_FileFilter,
+                FilterIndex = 2,
+                RestoreDirectory = true
+            };
+            if (file.ShowDialog() != DialogResult.OK) return;
+
+            if (RpmPathDictionary == null)
+            { 
+                RpmPathDictionary = new Dictionary<int, string>();
+            }
+            if(!RpmPathDictionary.ContainsKey(15))
+            {
+                RpmPathDictionary.Add(15, file.FileName);
+                return;
+            }
+            RpmPathDictionary[15] = file.FileName;
         }
 
         public bool NotUseMultiSelect { get { return !_useMultiSelect; } }
@@ -185,18 +220,30 @@ namespace DataLogApp.ViewModel
 
         }
 
-        private string rpm1500Path;
+        private Dictionary<int, string> rpmPathDictionary;
+
+        public Dictionary<int, string> RpmPathDictionary
+        {
+            get { return rpmPathDictionary;}
+            set
+            {
+                rpmPathDictionary = value;
+                OnPropertyChanged("RpmPathDictionary");
+            }
+        } 
+       
 
         public string Rpm1500Path
         {
             get
             {
-                return rpm1500Path;
+                
+                return rpmPathDictionary[15];
             } 
             set
             {
                 if (value == null) return;
-                rpm1500Path = value;
+                rpmPathDictionary[15] = value;
                 OnPropertyChanged("Rpm1500Path");
             }
         }

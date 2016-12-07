@@ -15,8 +15,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="33*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Label Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="30" FontSize="14">Choose All Log files:</Label>
-        <TextBox Grid.Column="1" Grid.Row="0" VerticalContentAlignment="Center" VerticalAlignment="Center" Height="30" Text="{Binding Path=SingleOrMultiTextBoxPath}"></TextBox>
-        <Button Grid.Column="2" Grid.Row="0" Height="30" Width="50" Command="{Binding Path=BrowseSingleOrMulti}">Browse</Button>
+        <Label Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="30" FontSize="14" Visibility="{Binding Path=UseMultiSelect}">Choose All Log files:</Label>
+        <TextBox Grid.Column="1" Grid.Row="0" VerticalContentAlignment="Center" VerticalAlignment="Center" Height="30" Text="{Binding Path=SingleOrMultiTextBoxPath}" Visibility="{Binding Path=UseMultiSelect}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="0" Height="30" Width="50" Command="{Binding Path=BrowseSingleOrMulti}" Visibility="{Binding Path=UseMultiSelect}">Browse</Button>
     </Grid>
 </UserControl>

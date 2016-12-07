@@ -22,9 +22,9 @@
             <RowDefinition Height="16*"></RowDefinition>
         </Grid.RowDefinitions>
         <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">1500RPM:</Label>
-        <TextBox Grid.Column="1" Grid.Row ="0" Height="23" VerticalAlignment="Center" Text="{Binding Path=SingleOrMultiTextBoxPath}"></TextBox>
-        <Button Grid.Column="2" Grid.Row="0" Height="23" Width="50" Command="{Binding Path=BrowseSingleOrMulti}">Browse</Button>
-
+        <TextBox Grid.Column="1" Grid.Row ="0" Height="23" VerticalAlignment="Center" Text="{Binding Path=RpmPathDictionary[15]}"></TextBox>
+        <Button Grid.Column="2" Grid.Row="0" Height="23" Width="50" Command="{Binding Path=Browse1500RpmPath}">Browse</Button>
+        
         <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" VerticalContentAlignment="Center">2000RPM:</Label>
         <TextBox Grid.Column="1" Grid.Row ="1"  Height="23" VerticalAlignment="Center" Text="{Binding Path=Rpm2000Path}" IsEnabled="{Binding Path=NotUseMultiSelect}" Visibility="{Binding Path=UseMultiSelectVisibility}"></TextBox>
         <Button Grid.Column="2" Grid.Row="1" Height="23" Width="50" Command="{Binding Path=Browse2000RpmPath}" Visibility="{Binding Path=UseMultiSelectVisibility}">Browse</Button>
