@@ -33,11 +33,6 @@ namespace Utilities.DataTableHelper
                 return 15;
             }
 
-            if (rpmAverage >= 1250 && rpmAverage < 1750)
-            {
-                return 15;
-            }
-
             if (rpmAverage >= 1750 && rpmAverage < 2250)
             {
                 return 20;

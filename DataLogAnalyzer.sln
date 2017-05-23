@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLogApp", "DataLogApp\DataLogApp.csproj", "{4CB68779-7D63-49AB-AB80-9D1B3F4FE80C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{1F7BB83C-820C-45C0-B797-530E2F760431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatalogAverageWriter", "DatalogAverageWriter\DatalogAverageWriter.csproj", "{FE044A78-47C6-41C4-BF9B-48E20072A607}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{1F7BB83C-820C-45C0-B797-530E2F760431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F7BB83C-820C-45C0-B797-530E2F760431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F7BB83C-820C-45C0-B797-530E2F760431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE044A78-47C6-41C4-BF9B-48E20072A607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE044A78-47C6-41C4-BF9B-48E20072A607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE044A78-47C6-41C4-BF9B-48E20072A607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE044A78-47C6-41C4-BF9B-48E20072A607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

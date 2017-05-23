@@ -102,3 +102,31 @@ C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogA
 C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.g.resources
 C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.Properties.Resources.resources
 C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csproj.GenerateResource.Cache
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe.config
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.exe
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.pdb
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\bin\Debug\DataLogApp.exe
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\bin\Debug\DataLogApp.pdb
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\bin\Debug\Utilities.dll
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\bin\Debug\Utilities.pdb
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csprojResolveAssemblyReference.cache
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.baml
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.baml
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\MainWindow.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\IdleControl.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\App.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.cache
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp_MarkupCompile.lref
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\App.baml
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\InjectorBank1Control.baml
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmAutoSelection.baml
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\RpmRangeSelection.baml
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\Views\StartingPage.baml
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.g.resources
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.Properties.Resources.resources
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DataLogApp\obj\Debug\DataLogApp.csproj.GenerateResource.Cache

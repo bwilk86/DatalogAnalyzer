@@ -1,0 +1,8 @@
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\bin\Debug\DatalogAverageWriter.exe.config
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\bin\Debug\DatalogAverageWriter.exe
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\bin\Debug\DatalogAverageWriter.pdb
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\bin\Debug\Utilities.dll
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\bin\Debug\Utilities.pdb
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\obj\Debug\DatalogAverageWriter.csprojResolveAssemblyReference.cache
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\obj\Debug\DatalogAverageWriter.exe
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\DatalogAverageWriter\obj\Debug\DatalogAverageWriter.pdb

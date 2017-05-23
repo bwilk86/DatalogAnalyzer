@@ -18,3 +18,8 @@ C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\Utilitie
 C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
 C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\Utilities\obj\Debug\Utilities.dll
 C:\Users\bryce_wilkie\Desktop\Notes on jobs\Programming\DatalogAnalyzer\Utilities\obj\Debug\Utilities.pdb
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\Utilities\bin\Debug\Utilities.dll
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\Utilities\bin\Debug\Utilities.pdb
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\Utilities\obj\Debug\Utilities.dll
+C:\Users\wilt35\Desktop\Notes\Personal\Git\DatalogAnalyzer\Utilities\obj\Debug\Utilities.pdb
